@@ -1,0 +1,27 @@
+Investigation 2
+
+We were using cross validation with the 90% training and 10% test data to calculate the average accuracy.
+result:
+    average accuracy:
+        multi-axis composition:
+            All Data:               0.96
+            All accelerometer       0.60
+            All emg:                0.92
+            All gyroscope:          0.64
+            All orientation:        0.54
+            All orientationRule:    0.74
+
+        single dimension:
+            emg1: 0.56
+            emg2: 0.22
+            emg3: 0.44
+            emg4: 0.54
+            emg5: 0.64
+            emg6: 0.44
+            emg7: 0.56
+            emg8: 0.76
+
+The result show that the multi-axis composition is better than the single dimension.
+The best result from the single dimension is emg8 which is 0.76 average accuracy.
+The best result from the multi-axis composition is all data which is the 0.96 average accuracy.
+But the All emg data is 0.92 average accuracy. We can see that the emg data is the main factor to determine the keyboard command.
