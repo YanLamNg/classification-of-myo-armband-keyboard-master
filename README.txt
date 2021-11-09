@@ -1,8 +1,4 @@
-# Artificial Intelligence_A2
-
-COMP 4190
-Artificial Intelligence
-Assignment 2
+# Classification of myo armband keyboard
 
 Authors:
 
@@ -10,7 +6,7 @@ Xiaojian Xie 7821950
 
 YanLam Ng 7775665
 
-Group: 9
+
 
 Air Pollution Predictor:
 
