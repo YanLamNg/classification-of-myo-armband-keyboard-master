@@ -1,5 +1,12 @@
 # Classification of myo armband keyboard
 
+In the cleanData.py, we filter, normalize and split the data.
+
+In the multilayer_preceptron.py, we use multilayer_preceptron to classify the Myo Keyboard data. We use cross validation to calculate the average accuracy.
+To select the data for learning, we need to change the "learning_data" and "num_features" variable in the main method.
+the learning_data variable determine which keyboard data and colomn is going to be learned. The To select the data for learning, we need to change the "learning_data" and "num_features" variable in the main method.
+variable is the size of the keyboard data. 
+
 Authors:
 
 Xiaojian Xie 7821950
@@ -7,8 +14,6 @@ Xiaojian Xie 7821950
 YanLam Ng 7775665
 
 
-
-Air Pollution Predictor:
 
 Tensorflow version: v1
 
@@ -22,10 +27,5 @@ How to run in terminal:
     cleanData.py: filter, normalize and split the data.
     multilayer_preceptron.py: run multilayer_preceptron with cross validation
 
-In the cleanData.py, we filter, normalize and split the data.
 
-In the multilayer_preceptron.py, we use multilayer_preceptron to classify the Myo Keyboard data. We use cross validation to calculate the average accuracy.
-To select the data for learning, we need to change the "learning_data" and "num_features" variable in the main method.
-the learning_data variable determine which keyboard data and colomn is going to be learned. The To select the data for learning, we need to change the "learning_data" and "num_features" variable in the main method.
-variable is the size of the keyboard data. 
 
